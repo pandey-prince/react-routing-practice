@@ -18,7 +18,7 @@ export default function RunnerComponent({ data }) {
             {buttonName}
           </button>
         </div>
-        {click && <div>You clicked to head component</div>}
+        {click && <div>{msg}</div>}
       </div>
     </div>
   );
