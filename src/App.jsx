@@ -7,14 +7,14 @@ import About from "./About";
 import Contect from "./Contect";
 function App() {
   return (
-    <BrowserRouter>
+   
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/contect" element={<Contect />} />
         <Route path="/about" element={<About />} />
       </Routes>
-    </BrowserRouter>
+   
   );
 }
 
